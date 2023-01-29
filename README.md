@@ -25,7 +25,7 @@ DATASETS
 
 (3) sheep_specinfo_20230129.csv: information on the astragali in (1). Available at https://doi.org/10.1101/2022.12.24.521859 [NOTE that the column title of the file in this version is 'Context', and should be changed to 'group']
 
-(4) spec_info.Rdata: data frame with specimens in rows, site (group) assignment in the first column, and PCA scores in consecutive columns. The data were transformed and ordinated using the gpagen() and gm.prcomp() functions from the library geomorph (Adams et al. 2022, Baken et al. 2021).
+(4) spec_df: data frame with specimens in rows, site (group) assignment in the first column, and PCA scores in consecutive columns. The data were transformed and ordinated using the gpagen() and gm.prcomp() functions from the library geomorph (Adams et al. 2022, Baken et al. 2021).
 
 REFERENCES
 
