@@ -4,6 +4,8 @@ Estimate distances between specimen groups
 Description
 Functions to calculate within group distances, distances from group centres to the origin, angles between group centres, and distances between group centroids.
 
+Install using devtools::install_github("nmar79/spRead")
+
 Details
 FUNCTIONS
 
