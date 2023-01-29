@@ -66,7 +66,7 @@ for (i in 1:length(data_by_group)) {
 long_data <- unlist(distance_list)
 long_df <- cbind.data.frame(name_string, long_data)
 long_df$name_string <- factor(long_df$name_string)
-aov_results <- aov(long_data ~ name_string, long_df)
+aov_results <- summary(aov(long_data ~ name_string, long_df))
 return(aov_results)
 
 }
