@@ -21,8 +21,7 @@ EXAMPLE DATASETS can be doanloaded from the "data" directory in the GitHub page
 
 (1) sheep_lmrks_202212180740.TPS: landmarks and semisliding landmarks of Iron Age sheep astragals (Harding & Marom 2022) from three sites in northern Israel (Tel Dor, Tel Keisan, Tel Abel Beit Maacah). 
 
-(2) sheep_sliders_202212180739.csv: slider configuration file for the sheep landmark data in (1). Available at https://doi.org/10.1101/2022.12.24.521859
-
+(2) sheep_sliders_202212180739.csv: slider configuration file for the sheep landmark data in (1). 
 (3) sheep_specinfo_20230129.csv: information on the astragali in (1). 
 
 (4) spec_df: data frame with specimens in rows, site (group) assignment in the first column, and PCA scores in consecutive columns. The data were transformed and ordinated using the gpagen() and gm.prcomp() functions from the library geomorph (Adams et al. 2022, Baken et al. 2021).
