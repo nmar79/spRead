@@ -2,5 +2,6 @@
 
 export(angle_between_centroids)
 export(distance_from_origin)
+export(plot_concensus_shapes)
 export(proc_dist_group)
 export(within_group_distances)

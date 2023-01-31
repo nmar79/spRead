@@ -11,7 +11,8 @@
 #' angle_between_centroids(): angle between group centroids
 #'	
 #' proc_dist_group(): Procrustes distances between group centroids
-#' 	
+#'
+#' plot_concensus_shapes(): plots mean shapes for each group  	
 #'
 #' DATASETS
 #'
