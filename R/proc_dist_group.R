@@ -33,7 +33,7 @@ lmks <- 1:nlndmrks
 XY <- 1:2
 spec <- ngroups
 concensus <- array(c(lmks,XY,spec), dim = c(nlndmrks,2,ngroups))
-for (i in 1:ngroups){for (j in 1:nlndmrks){plot(concensus[j,1:2,i] <- c(mean(group_coords[[i]][j,1,]),mean(group_coords[[i]][j,2,])))}}
+for (i in 1:ngroups){for (j in 1:nlndmrks){concensus[j,1:2,i] <- c(mean(group_coords[[i]][j,1,]),mean(group_coords[[i]][j,2,]))}}
 
 pr_dist <- as.matrix(dist(two.d.array(concensus)))
 
