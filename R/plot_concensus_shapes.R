@@ -41,11 +41,15 @@ plot_concensus_shapes <- function(specimen_info_file, slider_file, landmarks_fil
   temp_coords <- concensus[,,i]
   new_coords <- concensus[,,i]
 for (j in 1:length(lmks)){new_coords[j,] <- temp_coords[order_vector[j],]}
-lines(new_coords)
+
+newer_coords <- array(1:2*(length(order_vector)+1), dim = (c(length(order_vector)+1, 2)))
+newer_coords[1:length(order_vector), ] <- new_coords
+newer_coords[length(order_vector) + 1, ] <- new_coords[1, ]
+lines(newer_coords)
 
 }
   
-  
+ 
 }
   
   
